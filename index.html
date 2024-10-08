@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Construindo uma Página HTML</title>
+    <style>
+      header{
+        background-color: #ADD8E6	;
+      }
+      h1{
+        text-align: center;
+      }
+      body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: azure;
+      }
+
+      div{
+        text-align: center;
+      }
+      footer {
+  
+        background-color: #ADD8E6	;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><font color="#4682B4">Construindo uma página HTML</font></h1>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <h2 id="indice">Índice</h2>
+
+        <ul>
+          <li><a href="#html">O que é HTML</a></li>
+          <li>
+            <a href="#principios">Princípios básicos para construir uma página HTML</a>
+          </li>
+          <li><a href="#principais">Conhecendo algumas TAGS</a></li>
+          <li><a href="#referencias">Referências</a></li>
+        </ul>
+      </section><hr>
+
+      <section>
+        <h3 id="html"><u>O que é HTML</u></h3>
+        <small><a href="#indice">Voltar</a></small>
+        
+        <p>
+          Criado por Tim Berners-Lee, o <abbr title="Hypertext Markup Language">HTML</abbr> é uma Linguagem de Marcação de Hipertexto, e sua função é <del cite="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" datetime="08/10/2024 às 09:45">delimitar/marcar</del> estruturar uma página web e seu conteúdo, através de <strong>TAGS</strong> de forma com que eles sejam compreendidos tanto pela
+          máquina, quanto pelo usuário.</p> 
+          <p>Em outras palavras é você dar instruções para máquina, falando a mesma linguagem que ela, sendo assim ela pode devolver essas instruções de maneira compreensível para o usuário.</p>
+          <p>Através dessa linguagem <abbr title="Hyper Text Murkup Language">HTML,</abbr> podemos criar páginas com textos contendo titúlos, parágrafos, listas e etc.</p>
+          
+        </p>
+      </section>
+
+      <section>
+        <h3 id="principios"><u>Princípios básicos para construir uma página HTML</u></h3>
+        <small><a href="#indice">Voltar</a></small>
+       <p>Para construção de uma página é necessário ter:</p>
+      
+        <ol>
+          <li>Conhecimento das principais <em>Tags HTML</em>;</li>
+          <li>Um editor de texto como VsCode, Sublime Text ou Notepad++;</li>
+          <li>Boas prática como acessividade e responsividade;</li>
+        </ol>
+   
+
+        <p>
+          Quando o desenvolvedor constrói uma página considerando estes
+          princípios básicos, ele consegue criar uma página onde usuário
+          terá uma interação confortável e amigável ao navegar por
+          ela.
+        </p>
+        <p>
+          O desenvolvedor deve saber utilizar de outros artifícios como as cores
+          certas, fonte ideal e manter um visual clean da página, tudo para que
+          os seus usuários tenham uma experiência positiva durante a navegabilidade.
+        </p>
+        <p>
+          A finalidade da página irá determinar o tamanho, peso e tipo da fonte a ser utilizada.
+          <p>As mídias como: Imagens, áudio, video e etc.</p> E por último e mais
+          importante a semântica, pois esta, embora não seja visível para o
+          usuário, é ela que faz a diferença para buscadores e leitores de tela,
+          tornando-se assim uma ótima página para pessoas que necessitam do uso
+          de <em>acessiblidade</em>.
+        </p>
+      </section>
+
+      <section>
+
+        <h3 id="principais"><u>Conhecendo algumas Tags</u></h3>
+        <small><a href="#indice">Voltar</a></small>
+        <p>Dentre as principais tags podemos destacar as que são usadas para marcar título e subtitulos que variam desde o <mark>H1</mark> até o <mark>H6</mark>.
+          <p>Veja nos exemplos a seguir:</p>
+          <div>
+
+            <h1>Título de nível 1</h1>
+                <h2>Subtítulo de nível 2</h2>
+                <h3>Subtítulo de nível 3</h3>
+                <h4>Subtítulo de nível 4</h4>
+                <h5>Subtítulo de nível 5</h5>
+                <h6>Subtítulo de nível 6</h6> 
+            </ul>
+          </div>
+             </p>
+             <p>A tag para inserir um Parágrafo <mark>&lt;p&gt;</mark>;
+                <p> Quebra de Linha <mark> &lt;br&gt;</mark>;</p><br>
+             </p>
+             <p>As Tags <mark> &lt;sub&gt;</mark><sub>Exemplo 1</sub> e <mark>&lt;sup&gt; </mark><sup>Exemplo 2</sup>;</p>
+             <p>O <mark>&lt;blockquote&gt;</mark> para mostrar citações externas. Veja como funciona no exemplo abaixo:</p>
+
+            <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+              O <strong>Elemento HTML</strong> <code>&lt;blockquote&gt;</code> (ou <em>Html Block Quotation Element</em>) indica que um texto externo foi citado.
+            </blockquote>
+
+            <p>Esta página fala de forma resumida como funciona o Html. Agora que você conhece um pouco, experimente criar sua primeira página e divirta-se!</p>
+
+
+      </section>
+    </main>
+    <hr>
+    <footer>
+     <h4 id="referencias">Referências</h4>
+     <small><a href="#indice">Voltar</a></small>
+     <p>O conteúdo desta página tem como referências os links abaixo:</p>
+     <ul>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">Mozzila.org</a></li>
+      <li><a href="https://biblioteca.rocketseat.com.br/html/fundamentos-de-html/abreviacoes" target="_blank">Biblioteca Rocketseat</a></li>
+      <li><a href="https://youtu.be/L0rzWlVmz08?si=ykBr7MOT-vaq4913" target="_blank">hcode</a></li>
+      <li><a href="https://web.dio.me" target="_blank">Dio.me</a></li>
+     </ul>
+    
+    </footer>
+  </body>
+</html>
